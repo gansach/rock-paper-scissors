@@ -1,0 +1,38 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: medium;
+}
+.results {
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.scores {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    min-width: 50vw;
+    justify-content: space-evenly;
+}
